@@ -1,0 +1,266 @@
+.navbar-brand{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.container{
+    max-width: 75%;
+}
+
+.separator{
+    width: 45px;
+    height: 2px;
+    display: block;
+    margin: 20px auto 20px;
+    border-radius: 99px;
+    border: 1px solid rgb(21, 21, 128);
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    -ms-border-radius: 99px;
+    -o-border-radius: 99px;
+}
+
+/* Buttons */
+.btnReadMore{
+    margin: 20px 0px 20px;
+}
+
+.btnService{
+    display: none;
+}
+
+.allColumn{
+    max-height: 250px;
+    align-content: center;
+}
+
+/* Departments Container */
+.deptDiv{
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    transition: color .2s ease-in;
+    -webkit-transition: color .2s ease-in;
+    -moz-transition: color .2s ease-in;
+    -ms-transition: color .2s ease-in;
+    -o-transition: color .2s ease-in;
+    display: none;
+}
+
+.deptDiv:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Font Size */
+.headline{
+    font-size: 32px;  
+}    
+
+.sectionTitle{
+    font-size: 20px;
+    margin: 0px 0px 20px;
+}
+
+.sectionBody{
+    margin: 20px 0px 10px;
+}
+
+.sectionButton .btnService{
+    margin: 20px 0px 10px;
+    left: -10%;
+}
+.insideRows{
+    min-height: 100px;
+    max-width: 90%;
+}
+
+/* Images */
+.imgMap{
+    max-height: 350px;
+}
+
+.inlineImgBiggerColumn{
+    height: 250px;
+    border-radius: 5%;
+    max-width: 70%;
+    display: none;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.inlineImgSmallerColumn{
+    max-height: 100%;
+    border-radius: 5%;
+    max-width: 100%;
+    display: block;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.containerBgImage{
+    max-height: 100%;
+    max-width: 100%;
+    opacity: 0.5;
+}
+
+.projectBg{
+    background-image: url("../images/main-slider/slider-img1.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.breakLine{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgb(56, 57, 58, 0.5);
+    max-width: 100%;
+    margin: 40px 0px 40px;
+}
+
+.carousel-item img {
+    top: 0;
+    left: 0;
+    max-height: 861px;
+}
+
+.carousel-caption{
+    bottom: 30%;
+}
+
+.carousel-indicators{
+    bottom: 25%;
+}
+
+/* Cards */
+.projectCard{
+    height: 450px;
+    border: 0px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.col-card{
+    padding: 0px;
+    margin: 0px 10px 0px;
+}
+
+.card-img-top{
+    height: 40%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+/* FAQ */
+.faqParagraph{
+    display: none;
+}
+
+.plusMinus{
+    float: right;
+    top: 0;
+    color: blue;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+/* Scroll To Top */
+#scrollToTop{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgb(212, 203, 203);
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+
+/* Position Content at Start*/
+.serviceDivs{
+    height: 200px;
+}
+
+.serviceDivs div{
+    left: -150%;
+}
+
+@media (min-width: 1200px){
+    .carousel-caption{
+        font-size: 20px;
+    }
+    .navbar-nav > li{
+        margin-left: 10px;
+      }
+}
+
+@media (max-width: 992px){
+    .carousel-caption{
+        bottom: 20%;
+    }
+    .carousel-indicators{
+        bottom: 15%;
+    }
+    .headline{
+        font-size: 22px;
+    }
+    .card{
+        margin: 10px 0px 10px;
+    }
+    .card-title{
+        font-size: 16px;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+    .sectionTitle{
+        margin: 20px 0px 20px;
+    }
+    .projectCard{
+        height: 300px;
+        max-width: 80%;
+    }
+    .serviceDivs{
+        height: 450px;;
+    }
+    
+
+}
+
+@media (max-width: 768px){
+    .carousel-caption{
+        font-size: 10px;
+    }
+
+    .carousel-caption{
+        bottom: 15%;
+    }
+    
+    .carousel-indicators{
+        bottom: 10%;
+    }
+    .serviceDivs{
+        height: 400px;
+    }
+
+}
+
