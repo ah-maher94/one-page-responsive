@@ -8,9 +8,10 @@
     <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/all.min.css" />
-    <!-- <link rel="stylesheet" href="css/fontawesome.css" /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
     <link rel="stylesheet" href="css/style.css" />
-    <title>Home</title>
+    <title>G.O.A.T</title>
   </head>
   <body>
 
@@ -32,11 +33,23 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Projects</a>
               </li>
               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="deptDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Departments
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
+                  Services
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">Action</a>
@@ -46,24 +59,10 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
+                <a class="nav-link" href="#">Contact Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">About</a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -78,31 +77,31 @@
 
     <!-- Start Slider -->
     <div id="carouselExampleCaptions" class="carousel slide mb-5" data-ride="carousel">
-      <ol class="carousel-indicators">
+      <ol class="carousel-indicators slider-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
         <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/main-slider/slider-img1.jpg" class="d-block w-100" alt="...">
+          <img src="images/main-slider/slider1.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-block d-md-block">
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h1>Our Mission</h1>
+            <p>We work with our clients to design and develop the best solutions to help their business boom.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="images/main-slider/slider-img1.jpg" class="d-block w-100" alt="...">
+          <img src="images/main-slider/slider2.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-block d-md-block">
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h1>Our Mission</h1>
+            <p>We work with our clients to design and develop the best solutions to help their business boom.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="images/main-slider/slider-img1.jpg" class="d-block w-100" alt="...">
+          <img src="images/main-slider/slider3.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-block d-md-block">
-            <h5>Third slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h1>Our Mission</h1>
+            <p>We work with our clients to design and develop the best solutions to help their business boom.</p>
           </div>
         </div>
       </div>
@@ -134,7 +133,7 @@
           </div>
         </div>
         <div class="col-11 col-sm-11 col-lg-7 allColumn">
-          <img src="images/main-slider/slider-img1.jpg" class=" w-100 inlineImgBiggerColumn" alt="...">
+          <img src="images/under.jpg" class=" w-100 inlineImgBiggerColumn" alt="...">
         </div>
       </div>
 
@@ -150,32 +149,26 @@
       <div class="row justify-content-center mt-5" id="deptDivs">
         <div class="col-lg-4 col-md-6 col-sm-12 mr-auto deptDiv">
           <div class="font-weight-bold sectionTitle">
-            Management
+            Business Development
           </div>
           <div class="sectionBody">
-            Exerci tation ullamcorper suscipit lobortis nisl ut 
-          aliquip ex ea commodo consequat. 
-          Duis autem vel eum iriure dolor.
+            They are the ones which will determine the vision of the software. They are in constant contact with "the world".
           </div> 
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 mr-auto deptDiv">
           <div class="font-weight-bold sectionTitle">
-            Management
+            Development
           </div>
           <div class="sectionBody">
-            Exerci tation ullamcorper suscipit lobortis nisl ut 
-          aliquip ex ea commodo consequat. 
-          Duis autem vel eum iriure dolor.
+            This is the core of the company and they actually build the product in conjunction with other teams.
           </div> 
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 mr-auto deptDiv">
           <div class="font-weight-bold sectionTitle">
-            Management
+            Operations
           </div>
           <div class="sectionBody">
-            Exerci tation ullamcorper suscipit lobortis nisl ut 
-          aliquip ex ea commodo consequat. 
-          Duis autem vel eum iriure dolor.
+            This is the department tasked with the day to day of everything (patching, delivery, monitoring, alerting, etc.). 
           </div> 
         </div>
       </div>
@@ -207,20 +200,16 @@
 
           <div class="row row-cols-2 my-5 serviceDivs"> <!-- First Service -->  
             <div class="col-11 col-sm-11 col-lg-4 allColumn">      <!-- Left --> 
-              <img src="images/main-slider/slider-img1.jpg" class="w-100 inlineImgSmallerColumn"/>
+              <img src="images/services/service1.jpg" class="w-100 inlineImgSmallerColumn"/>
             </div>  
             <div class="col-11 col-sm-11 col-lg-8">        <!-- Right --> 
                 <div class="font-weight-bold sectionTitle">
-                  Management
+                  Platforms
                 </div>
                 <div class="sectionBody">
-                  Exerci tation ullamcorper suscipit lobortis nisl ut 
-                aliquip ex ea commodo consequat. 
-                Duis autem vel eum iriure dolor.
+                  G.O.A.T is a full service digital agency located in Cairo, Egypt. We work with our clients to design and develop the best solutions to help their business boom.
                 </div>
-                <div class="sectionButton">
                   <button type="button" class="btn btn-outline-primary btnService btnReadMore">Read More</button>
-                  </div>
               </div>
           </div>
 
@@ -230,19 +219,15 @@
           <div class="row row-cols-2 my-5 serviceDivs"> <!-- Second Service -->  
             <div class="col-11 col-sm-11 col-lg-8">        <!-- Left --> 
                 <div class="font-weight-bold sectionTitle">
-                  Management
+                  E-Commerce
                 </div>
                 <div class="sectionBody">
-                  Exerci tation ullamcorper suscipit lobortis nisl ut 
-                aliquip ex ea commodo consequat. 
-                Duis autem vel eum iriure dolor.
+                  G.O.A.T is a full service digital agency located in Cairo, Egypt. We work with our clients to design and develop the best solutions to help their business boom.
                 </div> 
-                <div class="sectionButton">
                   <button type="button" class="btn btn-outline-primary btnService btnReadMore">Read More</button>
-                  </div>
               </div>
               <div class="col-11 col-sm-11 col-lg-4 allColumn">      <!-- Right --> 
-                <img src="images/main-slider/slider-img1.jpg" class="d-block w-100 inlineImgSmallerColumn"/>
+                <img src="images/services/service2.jpg" class="d-block w-100 inlineImgSmallerColumn"/>
               </div>  
           </div>
 
@@ -251,20 +236,16 @@
 
           <div class="row row-cols-2 my-5 serviceDivs"> <!-- Third Service -->  
             <div class="col-11 col-sm-11 col-lg-4 allColumn">      <!-- Left --> 
-              <img src="images/main-slider/slider-img1.jpg" class="d-block w-100 inlineImgSmallerColumn"/>
+              <img src="images/services/service3.jpg" class="d-block w-100 inlineImgSmallerColumn"/>
             </div>  
             <div class="col-11 col-sm-11 col-lg-8">        <!-- Right --> 
                 <div class="font-weight-bold sectionTitle">
-                  Management
+                  Mobile & Web Apps
                 </div>
                 <div class="sectionBody">
-                  Exerci tation ullamcorper suscipit lobortis nisl ut 
-                aliquip ex ea commodo consequat. 
-                Duis autem vel eum iriure dolor.
+                  G.O.A.T is a full service digital agency located in Cairo, Egypt. We work with our clients to design and develop the best solutions to help their business boom.
                 </div> 
-                <div class="sectionButton">
                 <button type="button" class="btn btn-outline-primary btnService btnReadMore">Read More</button>
-                </div>
               </div>
           </div>
 
@@ -273,58 +254,115 @@
       <!-- End Services -->
 
 
+
+
+
       <!-- Start Projects -->
-    <div class="container-fluid mt-5 pt-5 projectBg">
+      <div class="container-fluid mt-5 pt-5 projectBg">
+        <div class="row">
+            <div class="col-12 mb-5 justify-content-center text-center">
 
-      <div class="row">
-        <div class="col-sm-12 justify-content-center text-center">
-          <div class="font-weight-bold headline">
-            Latest Projects   
-          </div>
-          <div class="separator" style="border:1px solid white"></div>
-          <div class="justify-content-center">
-            There are endless possibilities in building your own business. It all starts with an idea.
-          </div>
-          <div class="row justify-content-center my-5">
-            <div class="col-card col-7 col-md-5 col-lg-2 justify-content-center text-center">
-              <div class="card projectCard mx-auto" style="color:black; width: 100%">
-                <img src="images/main-slider/slider-img1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title</p>
-                  <a href="#" class="btn btn-primary" style="margin-top: 30px;">Read More</a>
-                </div>
+              <div class="font-weight-bold headline">
+                Latest Projects   
               </div>
-              
-            </div>
-            <div class="col-card col-7 col-md-5 col-lg-2">
-              <div class="card projectCard mx-auto" style="color:black; width: 100%">
-                <img src="images/main-slider/slider-img1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title</p>
-                  <a href="#" class="btn btn-primary" style="margin-top: 30px;">Read More</a>
-                </div>
+              <div class="separator" style="border:1px solid rgb(21, 21, 128)"></div>
+              <div class="justify-content-center">
+                There are endless possibilities in building your own business. It all starts with an idea.
               </div>
-              
-            </div>
-            <div class="col-card col-7 col-md-5 col-lg-2">
-              <div class="card projectCard mx-auto" style="color:black; width: 100%">
-                <img src="images/main-slider/slider-img1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title</p>
-                  <a href="#" class="btn btn-primary" style="margin-top: 30px;">Read More</a>
+
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner card-carousel-inner">
+
+                        <div class="carousel-item active">
+                            
+                          <div class="row  justify-content-center my-5"  id="projectDivs">
+                              <div class="col-7 col-md-5 col-lg-2 projectDiv">
+                                <div class="card projectCard mx-auto" style="color:black; width: 100%">
+                                    <img src="images/project/projects-4.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Web Dev</h5>
+                                        <p class="card-text">With our clients to help their business boom.</p>
+                                        <a href="#" class="btn btn-primary" style="margin-top:10px">Read More</a>
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="col-7 col-md-5 col-lg-2 projectDiv">
+                                <div class="card projectCard mx-auto" style="color:black; width: 100%">
+                                    <img src="images/project/projects-5.jpg" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                          <h5 class="card-title">Platforms</h5>
+                                          <p class="card-text">With our clients to help their business boom.</p>
+                                          <a href="#" class="btn btn-primary" style="margin-top:10px">Read More</a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-7 col-md-5 col-lg-2 projectDiv">
+                                <div class="card projectCard mx-auto" style="color:black; width: 100%">
+                                  <img src="images/project/projects-2.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                      <h5 class="card-title">Web App</h5>
+                                      <p class="card-text">With our clients to help their business boom.</p>
+                                      <a href="#" class="btn btn-primary" style="margin-top:10px">Read More</a>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+                            
+                          <div class="row  justify-content-center my-5">
+                              <div class="col-7 col-md-5 col-lg-2">
+                                <div class="card projectCard mx-auto" style="color:black; width: 100%">
+                                    <img src="images/project/projects-1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Apps</h5>
+                                        <p class="card-text">With our clients to help their business boom.</p>
+                                        <a href="#" class="btn btn-primary" style="margin-top:10px">Read More</a>
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="col-7 col-md-5 col-lg-2">
+                                <div class="card projectCard mx-auto" style="color:black; width: 100%">
+                                    <img src="images/project/projects-2.jpg" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                          <h5 class="card-title">VA/AR</h5>
+                                          <p class="card-text">With our clients to help their business boom.</p>
+                                          <a href="#" class="btn btn-primary" style="margin-top:10px">Read More</a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-7 col-md-5 col-lg-2">
+                                <div class="card projectCard mx-auto" style="color:black; width: 100%">
+                                  <img src="images/project/projects-3.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                      <h5 class="card-title">Web App</h5>
+                                      <p class="card-text">With our clients to help their business boom.</p>
+                                      <a href="#" class="btn btn-primary" style="margin-top:10px">Read More</a>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    
                 </div>
-              </div>
-              
+    
+            </div>
+    
+            <div class="col-12 mt-5 text-center">
+              <a class="btn btn-light btn-info" href="#carouselExampleControls" role="button" data-slide="prev">
+                <i class="fas fa-angle-double-left controls class-fade"></i>
+              </a>
+              <a class="btn btn-light btn-info" href="#carouselExampleControls" role="button" data-slide="next">
+                <i class="fas fa-angle-double-right controls class-active"></i>
+              </a>
             </div>
           </div>
-        </div>
       </div>
-
-    </div>
+      </div>
       <!-- End Projects -->
+
 
 
     <!-- Start Team  -->
@@ -339,21 +377,66 @@
           <div class="justify-content-center">
             Get to know the people behind Intact. Our creative and technical team.
           </div>
-          <div class="row justify-content-center mt-5">
-            <div class="col-7 col-md-5 col-lg-3 justify-content-center text-center">
-              <img src="images/team/team-left.png" class="d-block w-100"/>
+          <div class="row justify-content-center mt-5"  id="teamDivs">
+              <div class="col-7 col-md-5 col-lg-3 text-center teamDiv">
+                <img src="images/team/team-left.png" class="d-block w-100"/>
+                  <div class="card teamCard">
+                    <div class="card-body">
+                      <h5 class="card-title devName">Developer Name</h5>
+                      <h7 class="card-title devTitle">Back-end</h7>
+                      <p class="card-dev-text">responsible for server-side web application logic</p>
+                      <ul class="social-network social-circle">
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#" class="icoGithub" title="Github"><i class="fab fa-github"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                        
+                       </ul>	
+                    </div>
+                  </div>
+              </div>
+
+
+              <div class="col-7 col-md-5 col-lg-3 text-center teamDiv">
+                <img src="images/team/team-center.png" class="d-block w-100"/>
+                  <div class="card teamCard">
+                    <div class="card-body">
+                      <h5 class="card-title devName">Developer Name</h5>
+                      <h7 class="card-title devTitle">Front-end</h7>
+                      <p class="card-dev-text">converting data to a graphical interface through CSS, JS</p>
+                      <ul class="social-network social-circle">
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#" class="icoGithub" title="Github"><i class="fab fa-github"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>              
+                       </ul>	
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-7 col-md-5 col-lg-3 text-center teamDiv">
+                <img src="images/team/team-right.png" class="d-block w-100"/>
+                  <div class="card teamCard">
+                    <div class="card-body">
+                      <h5 class="card-title devName">Developer Name</h5>
+                      <h7 class="card-title devTitle">DB Developer</h7>
+                      <p class="card-dev-text">ensure that DBMS can handle massive quantities of data.</p>
+                      <ul class="social-network social-circle">
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#" class="icoGithub" title="Github"><i class="fab fa-github"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>                       
+                       </ul>	
+                    </div>
+                  </div>
+              </div>
+
             </div>
-            <div class="col-7 col-md-5 col-lg-3">
-              <img src="images/team/team-center.png" class="d-block w-100"/>              
-            </div>
-            <div class="col-7 col-md-5 col-lg-3">
-              <img src="images/team/team-right.png" class="d-block w-100"/> 
-            </div>
+
           </div>
         </div>
       </div>
 
-    </div>
     <!-- End Team  -->
 
 
@@ -364,7 +447,7 @@
       <div class="row">
         <div class="col-sm-12 justify-content-center">
           <div class="row justify-content-center my-5">
-            <div class="col-7 col-md-5 col-lg-3">
+            <div class="col-7 col-md-5 col-lg-3 showProjects">
                 <div class="font-weight-bold headline">
                   137 Finished Projects Worldwide
                 </div>
@@ -373,7 +456,7 @@
                   the best tools and approaches at your disposal, 
                   you’ll take giant leaps toward creating a business.
                 </div> 
-                <button type="button" class="btn btn-outline-primary btnReadMore">Show Projects</button>
+                <button type="button" class="btn btn-outline-primary btnReadMore btnShowProjects">Show Projects</button>
               </div>
               <div class="col-7 col-md-5 col-lg-5">
                 <img src="images/map.png" class="d-block w-100 imgMap"/>              
@@ -405,48 +488,48 @@
           </div>
           </div>
             <div class="row my-5 justify-content-center">
-              <div class="col-7 col-md-5 col-lg-5">
+              <div class="col-7 col-md-7 col-lg-5">
 
                 <ol>
                     <li>First Question <span class="plusMinus">+</span></li>
-                    <p class="faqParagraph">Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.</p>
+                    <p class="faqParagraph">First Answer: We work with our clients to design and develop the best solutions to help their business boom.</p>
                     <hr class="breakLine">
                     <li>Second Question <span class="plusMinus">+</span></li>
-                    <p class="faqParagraph">Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.</p>
+                    <p class="faqParagraph">Second Answer: We work with our clients to design and develop the best solutions to help their business boom.</p>
                     <hr class="breakLine">
                     <li>Third Question <span class="plusMinus">+</span></li>
-                    <p class="faqParagraph">Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.</p>
+                    <p class="faqParagraph">Third Answer: We work with our clients to design and develop the best solutions to help their business boom.</p>
                     <hr class="breakLine">
                     <li>Fourth Question <span class="plusMinus">+</span></li>
-                    <p class="faqParagraph">Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.</p>
+                    <p class="faqParagraph">Fourth Answer: We work with our clients to design and develop the best solutions to help their business boom.</p>
                     <hr class="breakLine">
                     <li>Fifth Question <span class="plusMinus">+</span></li>
-                    <p class="faqParagraph">Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.</p>
+                    <p class="faqParagraph">Fifth Answer: We work with our clients to design and develop the best solutions to help their business boom.</p>
                   </ol>
         
                 
               </div>
-              <div class="col-7 col-md-3 col-lg-3 ml-5">
-                <div class="row">
+              <div class="col-7 col-md-7 col-lg-3 ml-5">
+                <div class="row questionsDivs">
                   <div class="col">
                   <div class="font-weight-bold">
                     Questions?
                   </div>
                   <div class="sectionBody">
-                    Blandit justo vestibulum tincidunt, ipsum id non, volutpat neque pede eget donec.
+                    Get answers and advice from people you want it from.
                   </div> 
-                  <button type="button" class="btn btn-outline-primary btnReadMore">Contact Us</button>
+                  <button type="button" class="btn btn-outline-primary btnReadMore btnService">Contact Us</button>
                 </div>
                 </div>
-                <div class="row">
+                <div class="row questionsDivs">
                   <div class="col">
                     <div class="font-weight-bold">
                       About Us
                     </div>
                     <div class="sectionBody">
-                      Etiam nisl cras, arcu dui, wisi aenean non sit quisque nulla, eget aut molestie. Rhoncus sociis, nulla luctus diam montes cubilia.
+                      G.O.A.T is a full service digital agency located in Cairo, Egypt. We work with our clients to help their business boom.
                     </div> 
-                    <button type="button" class="btn btn-outline-primary btnReadMore">Learn More</button>
+                    <button type="button" class="btn btn-outline-primary btnReadMore btnService">Learn More</button>
                   </div>
                 </div>
 
@@ -457,6 +540,68 @@
             <!-- End FAQ --> 
 
 
+            <!-- Start What They Say -->
+
+      <section class="qoutes">
+
+        <div class="container">  
+
+          <div class="row mt-5">
+            <div class="col justify-content-center text-center">
+          <div class="font-weight-bold headline">
+            What They Say
+          </div>
+          <div class="separator"></div>
+          <div class="justify-content-center">
+            Don’t take our word for it, take theirs.
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col justify-content-center text-center">
+            <div id="carouselQoutes" class="carousel slide mb-5" data-ride="carousel">
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <p class="eachQoute">Through a creative blend of animation, the site immerses the user into a very engaging experience.</p>
+                  <span>Ben Awad</span>
+                </div>
+                <div class="carousel-item">
+                  <p class="eachQoute">Not only is G.O.A.T an interesting concept, but it also has a stunning execution that challenges our understanding of what is possible on the web.</p>
+                  <span>Hussein Nasser</span>
+                </div>
+                <div class="carousel-item">
+                  <p class="eachQoute">G.O.A.T does an exceptional job of visually and progressively telling the story of their product in a simple and easy-to-digest way.</p>
+                  <span>Ahmed Alfy</span>
+                </div>
+              </div>
+
+              <ol class="carousel-indicators">
+                <li data-target="#carouselQoutes" data-slide-to="0" class="active">
+                  <img src="images/qoutes/ben-awad.png" alt="Ahmed Maher"/>
+                </li>
+                <li data-target="#carouselQoutes" data-slide-to="1">
+                  <img src="images/qoutes/h-nasser.jpg" alt="Ahmed Maher"/>
+                </li>
+                <li data-target="#carouselQoutes" data-slide-to="2">
+                  <img src="images/qoutes/alfy.jpg" alt="Ahmed Maher"/>
+                </li>
+              </ol>
+
+
+            </div>
+          </div>
+
+
+            </div>
+        </div>
+
+      </section>
+
+            <!-- End What They Say -->
+
+
 
       <!-- Scroll To Top Button -->
       <div id="scrollToTop">
@@ -464,15 +609,98 @@
       </div>
 
 
-    <div class="container-fluid">
+
       <!-- Footer  -->
-      <div class="row row-cols-4 justify-content-center">
-        <div class="col-xs-1 col-md-3"></div>
-        <div class="col-xs-1 col-md-3"></div>
-        <div class="col-xs-1 col-md-3"></div>
-        <div class="col-xs-1 col-md-3"></div>
-      </div>
-    </div>
+
+      <footer class="mainfooter" role="contentinfo">
+        <div class="footer-middle">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-5 col-sm-6 footer-col">
+              <!--Column1-->
+              <div class="footer-pad">
+                <h5>G . O . A . T</h5>
+                <ul class="list-unstyled">
+                  <li>G.O.A.T is a full service digital agency located in Cairo, Egypt. We work with our clients to design and develop the best solutions to help their business boom.
+                  </li>
+                </ul>
+                <ul class="social-network social-circle">
+                  <li><a href="#" class="icoFacebook" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="#" class="icoGithub" title="Github"><i class="fab fa-github"></i></a></li>
+                  <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                  
+                 </ul>	
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-5 col-sm-6 footer-col">
+              <!--Column2-->
+              <div class="footer-pad">
+                <h5>CONTACT INFO</h5>
+                <ul class="list-unstyled">                 
+                    <li><i class="fa fa-map-marker"></i>Downtown Cairo</li>
+                    <li><i class="fas fa-phone"></i><strong>Phone:</strong> [+10] 20 21 4736</li>
+                    <li><i class="fas fa-envelope"></i><strong>E-Mail: </strong><a href="#">ahmed-maher@website.com</a></li>
+                    <li><i class="fa fa-globe"></i><strong>Web: </strong><a href="#">ahmed-maher.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-5 col-sm-6 footer-col">
+              <!--Column3-->
+              <div class="footer-pad">
+                <h5>ADDITIONAL LINKS</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Terms and conditions</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li>
+                    <a href="#"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-5 col-sm-6 footer-col">
+              <!--Column4-->
+              <div class="footer-pad">
+                <h5>LATEST NEWS</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Future design concept </a>February 3, 2016</li>
+                  <li><a href="#">Stand out venues </a>January 25, 2016</li>
+                  <li><a href="#">Technology upgraded </a>January 25, 2016</li>
+                  <li><a href="#">Deliver fresh news </a>February 15, 2015</li>
+                  <li><a href="#">Development solutions </a>January 25, 2015</li>
+                  <li>
+                    <a href="#"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-md-12 copy">
+            <p class="text-center">&copy; Copyright 2020 - Ahmed Maher.  All rights reserved.</p>
+          </div>
+        </div>
+      
+      
+        </div>
+        </div>
+      </footer>
+
+
+
+      <!-- Loading  -->
+      <section class="loading-overlay">
+        <div class="sk-folding-cube">
+          <div class="sk-cube1 sk-cube"></div>
+          <div class="sk-cube2 sk-cube"></div>
+          <div class="sk-cube4 sk-cube"></div>
+          <div class="sk-cube3 sk-cube"></div>
+        </div>
+      </section>
+
 
 
   </body>
